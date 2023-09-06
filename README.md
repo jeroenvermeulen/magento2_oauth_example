@@ -1,6 +1,7 @@
 # Magento 2 OAuth token exchange example
+
 Improved and updated version of:
-https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-oauth.html#oauth-example
+https://developer.adobe.com/commerce/webapi/get-started/authentication/gs-authentication-oauth/#oauth-example
 
 - Callback URL: `https://___yourdomain___/path/to/endpoint.php`
 - Identity link URL: `https://___yourdomain___/path/to/login.php`
