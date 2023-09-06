@@ -1,0 +1,23 @@
+{
+    "name": "jeroenvermeulen/magento2_oauth_example",
+    "authors": [
+        {
+            "name": "Jeroen Vermeulen",
+            "email": "info@jeroenvermeulen.eu"
+        }
+    ],
+    "require": {
+        "jeroenvermeulen/oauth": "^0.8.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/jeroenvermeulen/PHPoAuthLib.git"
+        }
+    ]
+}
