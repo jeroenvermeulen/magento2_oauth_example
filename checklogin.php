@@ -72,6 +72,21 @@ $accessToken = $oAuthClient->requestAccessToken(
         </div>
     <?php endforeach; ?>
     <div>
+        <label for="base_url">Base URL:</label>
+        <input type="text" class="ro" readonly id="base_url"
+               value="<?php echo htmlspecialchars($credentials->getCallbackUrl()); ?>"/>
+    </div>    
+    <div>
+        <label for="consumer_key">Consumer Key:</label>
+        <input type="text" class="ro" readonly id="consumer_key"
+               value="<?php echo htmlspecialchars($credentials->getConsumerId()); ?>"/>
+    </div>
+    <div>
+        <label for="consumer_secret">Consumer Secret:</label>
+        <input type="text" class="ro" readonly id="consumer_secret"
+               value="<?php echo htmlspecialchars($credentials->getConsumerSecret()); ?>"/>
+    </div>
+    <div>
         <label for="request_token">Request Token:</label>
         <input type="text" class="ro" readonly id="request_token"
                value="<?php echo htmlspecialchars($accessToken->getRequestToken()); ?>"/>
